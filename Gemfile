@@ -8,7 +8,7 @@ gem 'rails', '3.1.1'
 gem 'sqlite3'
 gem 'therubyracer'
 gem 'devise'
-gem 'hml'
+gem 'haml'
 
 # Gems used only for assets and not required
 # in production environments by default.
