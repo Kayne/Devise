@@ -10,6 +10,14 @@
 
 <p class="notice"><%= notice %></p> <p class="alert"><%= alert %></p>
 
+<p>
+<% if user_signed_in? %>
+Witaj, <%= current_user.name %>
+<% else %>
+Jesteś niezalogowany.
+<% end %>
+</p>
+
 <%= yield %>
 
 </body>
